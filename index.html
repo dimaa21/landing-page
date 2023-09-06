@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Landing page</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="/public/css/main.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Шапка верхній текст -->
+            <div class="header-top">
+                <span class="logo">itProger</span>
+                <div class="menu"><i class="fas fa-bars"></i></div>
+                <ul>
+                    <!-- При натисканні буде перекидати на ту частину сайту -->
+                    <li><a href="" onclick="return slowScroll('.header-main')">Інтро</a></li>
+                    <li><a href="" onclick="return slowScroll('.features')">Можливості</a></li>
+                    <li><a href="" onclick="return slowScroll('.information')">Допомога</a></li>
+                    <li><a href="" onclick="return slowScroll('.subscribe')">Блог</a></li>
+                </ul>
+            </div>
+
+            <div class="mobile-menu">
+                    <ul>
+                        <!-- При натисканні буде перекидати на ту частину сайту -->
+                        <li><a href="" onclick="return slowScroll('.header-main')">Інтро</a></li>
+                        <li><a href="" onclick="return slowScroll('.features')">Можливості</a></li>
+                        <li><a href="" onclick="return slowScroll('.information')">Допомога</a></li>
+                        <li><a href="" onclick="return slowScroll('.subscribe')">Блог</a></li>
+                    </ul>
+            </div>
+
+            <!-- Шапка основний текст зліва -->
+            <div class="header-main">
+                <div class="info">
+                    <h1>Простий, зручний<br>& компактний</h1>
+                    <p>Простий додаток HeyU для спілкування на будь-які теми</p>
+                    <button type="button" class="download">Скачати зараз</button>
+                </div>
+                      <!-- Шапка картинка справа -->
+                <div class="image">
+                    <img src="/public/img/header-img.png" alt="Фото програми">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="features">
+        <div class="container">
+            <div class="block">
+                <div class="order-mobile">
+                    <img src="/public/img/section-img1.png" alt="Фото програми">
+                </div>
+                <div class="info">
+                    <h2>Проста переписка</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque delectus enim error ex laudantium, minus neque nobis quod tenetur velit. A asperiores consectetur dicta distinctio harum maiores molestiae praesentium repellendus.</p>
+                </div>
+            </div>
+            <div class="block">
+                    <div class="info">
+                    <h2>Будь в курсі всього<span class="dot">.</span></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque delectus enim error ex laudantium, minus neque nobis quod tenetur velit. A asperiores consectetur dicta distinctio harum maiores molestiae praesentium repellendus.</p>
+                </div>
+                <div>
+                    <img src="/public/img/section-img2.png" alt="Фото програми">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="reviews container">
+        <h3>Що говорять люди<span class="dot">.</span></h3>
+        <div class="flex">
+            <div>
+                <div class="review">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam, beatae dolore doloribus eius eos, est illo illum minus nam quas, quis quod ratione repellendus sunt tempora velit voluptate!</p>
+                <span class="website">Booking.com</span>
+               </div>
+                <div class="author">
+                    <img src="/public/img/ceo-img.png" alt="Автор відгуку">
+                    <span class="name">
+                        Джордж Френклин<br>
+                        <span class="position">CEO</span>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <div class="review main">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam, beatae dolore doloribus eius eos, est illo illum minus nam quas, quis quod ratione repellendus sunt tempora velit voluptate!</p>
+                <span class="website">Airbnb</span>
+               </div>
+                <div class="author">
+                    <img src="/public/img/ceo-img2.png" alt="Автор відгуку">
+                    <span class="name">
+                        Джордж Френклин<br>
+                        <span class="position">CEO</span>
+                    </span>
+                </div>
+            </div>
+            <div>
+                <div class="review">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab alias aliquam, beatae dolore doloribus eius eos, est illo illum minus nam quas, quis quod ratione repellendus sunt tempora velit voluptate!</p>
+                <span class="website">Symu.co</span>
+               </div>
+                <div class="author">
+                    <img src="/public/img/ceo-img.png" alt="Автор відгуку">
+                    <span class="name">
+                        Джордж Френклин<br>
+                        <span class="position">CEO</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="information">
+        <div class="container flex">
+            <div>
+                <div class="block flex left-align">
+                    <div class="info">
+                        <h4>Почни спілкування</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                    <div>
+                        <img src="/public/img/message.png" alt="Message">
+                    </div>
+                </div>
+                <div class="block flex left-align">
+                    <div class="info">
+                        <h4>Здійсни дзвінок</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                    <div>
+                        <img src="/public/img/call.png" alt="Call">
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="image">
+                <img src="/public/img/presentation.png" alt="Photo program">
+                    <div class="video-play">
+                        <img src="/public/img/play.png" alt="Запустити відео">
+                        </div>
+                    </div>
+                </div>
+            <div>
+                <div class="block flex right-align">
+                    <div>
+                        <img src="/public/img/photo.png" alt="Photo">
+                    </div>
+                    <div class="info">
+                        <h4>Зроби фото</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                </div>
+                <div class="block flex right-align">
+                    <div>
+                        <img src="/public/img/camera.png" alt="Camera">
+                    </div>
+                    <div class="info">
+                        <h4>Надішли відео</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="subscribe container">
+        <h4>Підпишіться на наші оновлення <span class="dot">.</span> </h4>
+        <p class="info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna.</p>
+        <form id="sub_form">
+            <input type="email" id="email" placeholder="Введіть вашу email адресу">
+            <button type="button" id="subscribe">Підписатися</button>
+            <label for="email"></label>
+        </form>
+    </section>
+
+    <section class="download">
+            <div class="container">
+            <div class="logo">H</div>
+            <h4>Скачайте додаток<span class="dot">.</span></h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid dolore eaque earum.</p>
+            <a href=""><img src="/public/img/appstore.png" alt="Appstore"></a>
+        </div>
+    </section>
+
+    <footer class="container">
+        <ul>
+            <!-- При натисканні буде перекидати на ту частину сайту -->
+            <li><a href="" onclick="return slowScroll('.header-main')">Інтро</a></li>
+            <li><a href="" onclick="return slowScroll('.features')">Можливості</a></li>
+            <li><a href="" onclick="return slowScroll('.information')">Допомога</a></li>
+            <li><a href="" onclick="return slowScroll('.subscribe')">Блог</a></li>
+        </ul>
+    </footer>
+
+    <div id="modal-video">
+        <div class="close-button"><i class="fas fa-times"></i></div>
+        <div class="video-modal">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/uTRIpaBgRcw?si=HuO8nJOW6cVWMG6I" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/c41c99b4cf.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="/public/js/main-min.js"></script>
+</body>
+</html>
