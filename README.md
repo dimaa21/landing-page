@@ -28,8 +28,9 @@ To get started with this project, follow these steps:
 
 1. Clone the repository: `git clone [repository-url]`
 2. Install project dependencies: `sudo npm install -—global gulp-cli - install gulp global`
-3. Install gulp local: `sudo npm install gulp - install gulp local`
-4. Run Gulp to build and watch for changes: `gulp`
+3. Install npm in project: `sudo npm i`
+4. Install gulp local: `sudo npm install gulp - install gulp local`
+5. Run Gulp to build and watch for changes: `gulp`
 
 ## Contributions
 
