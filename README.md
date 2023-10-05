@@ -26,19 +26,11 @@ This repository contains the source code for an adaptive landing page, developed
 
 To get started with this project, follow these steps:
 
-1. Clone the repository: `git clone [repository-url]`
+1. Clone the repository: `git clone [git@github.com:dimaa21/landing-page.git]`
 2. Install project dependencies: `sudo npm install -—global gulp-cli - install gulp global`
 3. Install npm in project: `sudo npm i`
 4. Install gulp local: `sudo npm install gulp - install gulp local`
 5. Run Gulp to build and watch for changes: `gulp`
-
-## Contributions
-
-Contributions to the project are welcomed and encouraged. If you find a bug or have an idea for improvement, please open an issue or submit a pull request.
-
-## License
-
-This project is open-source and available under the [MIT License](LICENSE). You are free to use and modify the code within the terms of the license.
 
 <p><a href="https://dimaa21.github.io/landing-page/">click to see the project</a></p>
 <img src='screen.png'>
